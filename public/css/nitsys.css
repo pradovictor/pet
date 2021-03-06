@@ -1,0 +1,25 @@
+.action-col {
+    width: 110px !important; 
+    min-width: 110px !important; 
+}
+
+.action-col > span {
+    cursor: pointer;
+}
+
+.dataTables_scrollBody thead tr[role="row"] {
+    /** FIX datatable duplicate header scrollX*/
+    visibility: collapse !important;
+}
+
+select.form-control-sm {
+    height: 34px !important;
+}
+
+.tile-box-shortcut .tile-content-wrapper {
+    min-height: 57px;
+}
+
+.filtrofooter::placeholder{
+    font-weight:bold;
+}
